@@ -1,0 +1,52 @@
+[
+  {
+    "paper_id": "R1",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R1\",\n    \"selected_evidence\": {\n        \"Problem\": \"R1:problem\",\n        \"Metode\": \"R1:method\",\n        \"Dataset\": \"R1:dataset\",\n        \"Temuan\": \"R1:finding\",\n        \"Keterbatasan\": \"R1:limitation\",\n        \"Future work\": \"R1:future_work\"\n    },\n    \"gap_proyek\": \"Perlu dilakukan penelitian untuk menguji validitas model RAG-Sequence dan RAG-Token dalam konteks perikanan skala kecil di Timor-Leste.\"\n}"
+  },
+  {
+    "paper_id": "R2",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R2\",\n    \"selected_evidence\": {\n        \"Problem\": \"R2:problem\",\n        \"Metode\": \"R2:method\",\n        \"Dataset\": \"R2:dataset\",\n        \"Temuan\": \"R2:finding\",\n        \"Keterbatasan\": \"R2:limitation\",\n        \"Future work\": \"R2:future_work\"\n    },\n    \"gap_proyek\": \"Butuh penelitian lebih lanjut untuk memperbaiki sistem yang dapat menyertakan dukungan sitasi lengkap dalam penggabungan teks berdasarkan model LLM.\"\n}"
+  },
+  {
+    "paper_id": "R3",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R3\",\n    \"selected_evidence\": {\n        \"Problem\": \"R3:problem\",\n        \"Metode\": \"R3:method\",\n        \"Dataset\": \"R3:dataset\",\n        \"Temuan\": \"R3:finding\",\n        \"Keterbatasan\": \"R3:limitation\",\n        \"Future work\": \"R3:future_work\"\n    },\n    \"gap_proyek\": \"Perlu penilaian otomatis yang lebih akurat melalui kalibrasi dengan penilai domain lain untuk meningkatkan kualitas evaluasi.\"\n}"
+  },
+  {
+    "paper_id": "R4",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R4\",\n    \"selected_evidence\": {\n        \"Problem\": \"R4:problem\",\n        \"Metode\": \"R4:method\",\n        \"Dataset\": \"R4:dataset\",\n        \"Temuan\": \"R4:finding\",\n        \"Keterbatasan\": \"R4:limitation\",\n        \"Future work\": \"R4:future_work\"\n    },\n    \"gap_proyek\": \"Butuh evaluasi briefing kebijakan untuk validasi perbaikan pertumbuhan dan stabilitas kebijakan otomatisasi.\"\n}"
+  },
+  {
+    "paper_id": "R5",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R5\",\n    \"selected_evidence\": {\n        \"Problem\": \"R5:problem\",\n        \"Metode\": \"R5:method\",\n        \"Dataset\": \"R5:dataset\",\n        \"Temuan\": \"R5:finding\",\n        \"Keterbatasan\": \"R5:limitation\",\n        \"Future work\": \"R5:future_work\"\n    },\n    \"gap_proyek\": \"Butuh penelitian lebih lanjut tentang integrasi sistem manajemen budidaya ikan dengan teknologi AI untuk meningkatkan efisiensi dan kualitas produksi di skala kecil.\"\n}"
+  },
+  {
+    "paper_id": "R6",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R6\",\n    \"selected_evidence\": {\n        \"Problem\": \"R6:problem\",\n        \"Metode\": \"R6:method\",\n        \"Dataset\": \"R6:dataset\",\n        \"Temuan\": \"R6:finding\",\n        \"Keterbatasan\": \"R6:limitation\",\n        \"Future work\": \"R6:future_work\"\n    },\n    \"gap_proyek\": \"Perlu dilakukan evaluasi briefing kebijakan perikanan skala kecil untuk memastikan relevansi dan efektivitas implementasi teknologi yang dikembangkan.\"\n}"
+  },
+  {
+    "paper_id": "D1",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"D1\",\n    \"selected_evidence\": {\n        \"Problem\": \"D1:problem\",\n        \"Metode\": \"D1:method\",\n        \"Dataset\": \"D1:dataset\",\n        \"Temuan\": \"D1:finding\",\n        \"Keterbatasan\": \"D1:limitation\",\n        \"Future work\": \"D1:future_work\"\n    },\n    \"gap_proyek\": \"Perlu dikembangkan sistem yang dapat menyusun laporan perikanan skala kecil berdasarkan data yang tersedia dan memfasilitasi pengambilan keputusan yang lebih baik.\"\n}"
+  },
+  {
+    "paper_id": "D2",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"D2\",\n    \"selected_evidence\": {\n        \"Problem\": \"D2:problem\",\n        \"Metode\": \"D2:method\",\n        \"Dataset\": \"D2:dataset\",\n        \"Temuan\": \"D2:finding\",\n        \"Keterbatasan\": \"D2:limitation\",\n        \"Future work\": \"D2:future_work\"\n    },\n    \"gap_proyek\": \"Perlu dilakukan evaluasi lebih lanjut terhadap kesesuaian co-management dan tara bandu dalam konteks lokal Timor-Leste.\"\n}"
+  },
+  {
+    "paper_id": "R7",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R7\",\n    \"selected_evidence\": {\n        \"Problem\": \"R7:problem\",\n        \"Metode\": \"R7:method\",\n        \"Dataset\": \"R7:dataset\",\n        \"Temuan\": \"R7:finding\",\n        \"Keterbatasan\": \"R7:limitation\",\n        \"Future work\": \"R7:future_work\"\n    },\n    \"gap_proyek\": \"Perlu dikembangkan teknologi pengambilan keputusan yang dapat mengatasi batasan dalam menghasilkan teks panjang dengan akurasi dan efisiensi yang lebih baik.\"\n}"
+  },
+  {
+    "paper_id": "R8",
+    "attempt": 1,
+    "raw": "{\n    \"paper_id\": \"R8\",\n    \"selected_evidence\": {\n        \"Problem\": \"R8:problem\",\n        \"Metode\": \"R8:method\",\n        \"Dataset\": \"R8:dataset\",\n        \"Temuan\": \"R8:finding\",\n        \"Keterbatasan\": \"R8:limitation\",\n        \"Future work\": \"R8:future_work\"\n    },\n    \"gap_proyek\": \"Butuh penelitian lebih lanjut tentang efektivitas konfigurasi RAG dalam konteks lokal untuk memastikan kualitas dan efisiensi briefing kebijakan perikanan skala kecil di Timor-Leste.\"\n}"
+  }
+]

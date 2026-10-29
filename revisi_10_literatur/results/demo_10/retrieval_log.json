@@ -1,0 +1,832 @@
+[
+  {
+    "paper_id": "R1",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R1:problem",
+          "paper_id": "R1",
+          "field": "Problem",
+          "text": "Model parametrik sulit mengakses pengetahuan eksternal dan menunjukkan asal informasi.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R1:method",
+          "paper_id": "R1",
+          "field": "Metode",
+          "text": "DPR dan BART dipadukan sebagai RAG-Sequence dan RAG-Token.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R1:dataset",
+          "paper_id": "R1",
+          "field": "Dataset",
+          "text": "Wikipedia; NQ, TriviaQA, WebQuestions, CuratedTREC, MS MARCO, Jeopardy, FEVER.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R1:finding",
+          "paper_id": "R1",
+          "field": "Temuan",
+          "text": "Jawaban generation lebih faktual daripada baseline BART pada pengujian artikel.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R1:limitation",
+          "paper_id": "R1",
+          "field": "Keterbatasan",
+          "text": "Penulis: sebagian pertanyaan MS MARCO tidak terjawab dengan Wikipedia saja.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R1:future_work",
+          "paper_id": "R1",
+          "field": "Future work",
+          "text": "Usulan proyek: uji sumber lokal, ketepatan fakta, dan sitasi briefing.",
+          "source_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "locator": "Bagian 2, 3.1-3.3, dan 4; PDF hlm. 1-6",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R2",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R2:problem",
+          "paper_id": "R2",
+          "field": "Problem",
+          "text": "Jawaban LLM sulit diverifikasi jika dukungan sitasinya tidak lengkap.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R2:method",
+          "paper_id": "R2",
+          "field": "Metode",
+          "text": "ALCE menguji retrieval dan generation bersitasi beserta evaluasi otomatis.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.863046
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R2:dataset",
+          "paper_id": "R2",
+          "field": "Dataset",
+          "text": "ASQA, QAMPARI, dan ELI5; corpus retrieval terkait masing-masing tugas.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R2:finding",
+          "paper_id": "R2",
+          "field": "Temuan",
+          "text": "Sistem yang diuji masih memiliki kekurangan dukungan sitasi lengkap.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R2:limitation",
+          "paper_id": "R2",
+          "field": "Keterbatasan",
+          "text": "Penulis: generation dan sintesis banyak sumber masih perlu perbaikan.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R2:future_work",
+          "paper_id": "R2",
+          "field": "Future work",
+          "text": "Penulis: perbaiki retriever, model konteks panjang, dan sintesis lintas sumber.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.398/",
+          "locator": "Abstrak dan bagian dataset; PDF hlm. 1-3",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R3",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R3:problem",
+          "paper_id": "R3",
+          "field": "Problem",
+          "text": "Mutu RAG mencakup konteks dan kesetiaan jawaban, bukan kelancaran saja.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R3:method",
+          "paper_id": "R3",
+          "field": "Metode",
+          "text": "RAGAs memakai penilaian berbasis LLM untuk beberapa dimensi kualitas.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R3:dataset",
+          "paper_id": "R3",
+          "field": "Dataset",
+          "text": "WikiEval dengan perbandingan jawaban dan konteks serta penilaian manusia.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R3:finding",
+          "paper_id": "R3",
+          "field": "Temuan",
+          "text": "Metrik selaras dengan penilaian manusia terutama faithfulness dan relevansi jawaban.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R3:limitation",
+          "paper_id": "R3",
+          "field": "Keterbatasan",
+          "text": "Penulis: kualitas evaluasi sangat bergantung pada LLM penilai.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R3:future_work",
+          "paper_id": "R3",
+          "field": "Future work",
+          "text": "Usulan proyek: kalibrasi penilaian otomatis dengan dua penilai domain.",
+          "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+          "locator": "Bagian 4, 5, 7, dan 8; PDF hlm. 3-7",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R4",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R4:problem",
+          "paper_id": "R4",
+          "field": "Problem",
+          "text": "Kontrol budidaya memerlukan integrasi pengetahuan pakar dan respons sensor.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R4:method",
+          "paper_id": "R4",
+          "field": "Metode",
+          "text": "Ensemble RAG-LLM, DQN, sensor IoT, serta majority voting.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R4:dataset",
+          "paper_id": "R4",
+          "field": "Dataset",
+          "text": "900 pasangan tanya jawab pakar dan data sensor budidaya nila.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R4:finding",
+          "paper_id": "R4",
+          "field": "Temuan",
+          "text": "Artikel melaporkan perbaikan pertumbuhan dan stabilisasi kebijakan otomasi.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R4:limitation",
+          "paper_id": "R4",
+          "field": "Keterbatasan",
+          "text": "Batas transfer (analisis): kontrol budidaya belum memvalidasi briefing kebijakan.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R4:future_work",
+          "paper_id": "R4",
+          "field": "Future work",
+          "text": "Usulan proyek: uji sintesis laporan dan verifikasi manusia untuk briefing.",
+          "source_url": "https://www.nature.com/articles/s41598-025-05892-3",
+          "locator": "Abstract; Proposed RAG-LLM and DQN framework; Experimental results",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R5",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R5:problem",
+          "paper_id": "R5",
+          "field": "Problem",
+          "text": "Diagnosis penyakit dan konsultasi budidaya sering tersedia secara terpisah.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R5:method",
+          "paper_id": "R5",
+          "field": "Metode",
+          "text": "RAG Mistral-7B dan ensemble MobileNetV2, DenseNet121, VGG16.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R5:dataset",
+          "paper_id": "R5",
+          "field": "Dataset",
+          "text": "Citra tujuh kategori kesehatan ikan; sumber pengetahuan akuakultur terkurasi.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R5:finding",
+          "paper_id": "R5",
+          "field": "Temuan",
+          "text": "Stacking CNN mencapai 97,43 persen; angka ini bukan akurasi RAG.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R5:limitation",
+          "paper_id": "R5",
+          "field": "Keterbatasan",
+          "text": "Penulis: evaluasi memakai dataset terkontrol; uji lapangan masih diperlukan.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R5:future_work",
+          "paper_id": "R5",
+          "field": "Future work",
+          "text": "Penulis: field trials dan validasi pada dataset berbeda.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0144860926000087",
+          "locator": "Abstract, Highlights, dan Introduction pada cuplikan penerbit",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R6",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R6:problem",
+          "paper_id": "R6",
+          "field": "Problem",
+          "text": "Halusinasi multimodal mengurangi reliabilitas analisis perikanan.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R6:method",
+          "paper_id": "R6",
+          "field": "Metode",
+          "text": "Retrieval pasangan citra dan teks, fusi multimodal, serta fine-tuning domain.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R6:dataset",
+          "paper_id": "R6",
+          "field": "Dataset",
+          "text": "Benchmark 5.000 sampel multimodal; evaluasi terkait FishVista dan Fish4Knowledge.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R6:finding",
+          "paper_id": "R6",
+          "field": "Temuan",
+          "text": "Artikel melaporkan perbaikan pengenalan spesies, biomassa, dan mitigasi halusinasi.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R6:limitation",
+          "paper_id": "R6",
+          "field": "Keterbatasan",
+          "text": "Batas transfer (analisis): tugas visual belum membuktikan mutu briefing lokal.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R6:future_work",
+          "paper_id": "R6",
+          "field": "Future work",
+          "text": "Usulan proyek: uji sintesis dokumen kebijakan dan konsistensi periode sumber.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1801835/full",
+          "locator": "Abstract; bagian 1 dan 4.1; Table 1",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "D1",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "D1:problem",
+          "paper_id": "D1",
+          "field": "Problem",
+          "text": "Data perikanan skala kecil tersebar dan sulit dirangkum secara konsisten.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "D1:method",
+          "paper_id": "D1",
+          "field": "Metode",
+          "text": "PeskAAS memakai perangkat open-source dan dashboard Shiny.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "D1:dataset",
+          "paper_id": "D1",
+          "field": "Dataset",
+          "text": "Data tangkapan, upaya, dan pelacakan kapal pada pilot Timor-Leste.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "D1:finding",
+          "paper_id": "D1",
+          "field": "Temuan",
+          "text": "Sistem menyediakan analitik serta filter spasial dan temporal untuk data perikanan.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "D1:limitation",
+          "paper_id": "D1",
+          "field": "Keterbatasan",
+          "text": "Batas transfer (analisis): dashboard analitik bukan generator briefing bersitasi.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "D1:future_work",
+          "paper_id": "D1",
+          "field": "Future work",
+          "text": "Usulan proyek: hubungkan laporan dengan metadata wilayah dan periode.",
+          "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0234760",
+          "locator": "Abstract dan uraian sistem",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "D2",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "D2:problem",
+          "paper_id": "D2",
+          "field": "Problem",
+          "text": "Kesesuaian co-management dan tara bandu perlu dinilai dalam konteks lokal.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "D2:method",
+          "paper_id": "D2",
+          "field": "Metode",
+          "text": "Interactive governance framework dan dua studi kasus komunitas.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "D2:dataset",
+          "paper_id": "D2",
+          "field": "Dataset",
+          "text": "Biacou dan Adara; telaah konteks, wawancara, serta diskusi kelompok.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "D2:finding",
+          "paper_id": "D2",
+          "field": "Temuan",
+          "text": "Kelembagaan lokal perlu terhubung dengan tata kelola pada tingkat lebih luas.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "D2:limitation",
+          "paper_id": "D2",
+          "field": "Keterbatasan",
+          "text": "Penulis: tidak tersedia baseline empiris untuk menguji klaim ekologis Biacou.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "D2:future_work",
+          "paper_id": "D2",
+          "field": "Future work",
+          "text": "Usulan proyek: pertahankan konteks komunitas dan bedakan bukti empiris dari anekdot.",
+          "source_url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2019.00392/full",
+          "locator": "Abstract; Materials and Methods; Case Study 1 Biacou",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R7",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R7:problem",
+          "paper_id": "R7",
+          "field": "Problem",
+          "text": "Retrieval sekali di awal dapat tidak mencukupi kebutuhan teks panjang.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R7:method",
+          "paper_id": "R7",
+          "field": "Metode",
+          "text": "FLARE memicu retrieval berdasarkan prediksi kalimat berikut dan token berkeyakinan rendah.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R7:dataset",
+          "paper_id": "R7",
+          "field": "Dataset",
+          "text": "2WikiMultihopQA, StrategyQA, ASQA, dan WikiAsp.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R7:finding",
+          "paper_id": "R7",
+          "field": "Temuan",
+          "text": "FLARE unggul atau kompetitif pada empat tugas generation yang diuji.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R7:limitation",
+          "paper_id": "R7",
+          "field": "Keterbatasan",
+          "text": "Penulis: tidak ada peningkatan berarti pada ELI5 dan Wizard of Wikipedia; overhead bertambah.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R7:future_work",
+          "paper_id": "R7",
+          "field": "Future work",
+          "text": "Penulis: strategi retrieval aktif dan arsitektur integrasi informasi yang lebih efisien.",
+          "source_url": "https://aclanthology.org/2023.emnlp-main.495/",
+          "locator": "Abstract; bagian 5, 6, 8, dan 9; PDF hlm. 1, 6-9",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "paper_id": "R8",
+    "contexts": {
+      "Problem": [
+        {
+          "evidence_id": "R8:problem",
+          "paper_id": "R8",
+          "field": "Problem",
+          "text": "Banyak pilihan modul RAG menambah kompleksitas dan waktu respons.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Metode": [
+        {
+          "evidence_id": "R8:method",
+          "paper_id": "R8",
+          "field": "Metode",
+          "text": "Eksperimen kombinasi retrieval, reranking, repacking, dan summarization.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Dataset": [
+        {
+          "evidence_id": "R8:dataset",
+          "paper_id": "R8",
+          "field": "Dataset",
+          "text": "Antara lain NQ, TriviaQA, HotpotQA; evaluasi tambahan lintas tugas.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Temuan": [
+        {
+          "evidence_id": "R8:finding",
+          "paper_id": "R8",
+          "field": "Temuan",
+          "text": "Artikel mengusulkan konfigurasi yang menyeimbangkan kualitas dan efisiensi.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": false,
+          "bm25_score": 0.0
+        }
+      ],
+      "Keterbatasan": [
+        {
+          "evidence_id": "R8:limitation",
+          "paper_id": "R8",
+          "field": "Keterbatasan",
+          "text": "Batas transfer (analisis): konfigurasi benchmark belum tentu optimal untuk dokumen lokal.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.287682
+        }
+      ],
+      "Future work": [
+        {
+          "evidence_id": "R8:future_work",
+          "paper_id": "R8",
+          "field": "Future work",
+          "text": "Usulan proyek: ablation BM25 dan hybrid serta pengukuran latensi briefing.",
+          "source_url": "https://aclanthology.org/2024.emnlp-main.981/",
+          "locator": "Abstract; bagian 4; Appendix A.7; PDF hlm. 1, 7, 18-19",
+          "source_kind": "editorial_secondary_note",
+          "interpretation": true,
+          "bm25_score": 0.575364
+        }
+      ]
+    }
+  }
+]

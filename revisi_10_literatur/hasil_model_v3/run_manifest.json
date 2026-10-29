@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "created_at_utc": "2026-10-29T11:57:39.075100+00:00",
+  "mode": "model_evidence_selection",
+  "llm_called": true,
+  "model_calls": 10,
+  "model_info": {
+    "id": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "gpu": "Tesla T4",
+    "transformers": "4.57.1",
+    "torch": "2.11.0+cu130",
+    "python": "3.13.16"
+  },
+  "rows_total": 10,
+  "rows_schema_valid": 10,
+  "rows_failed": 0,
+  "column_order": [
+    "Paper",
+    "DOI",
+    "Problem",
+    "Metode",
+    "Dataset",
+    "Temuan",
+    "Keterbatasan",
+    "Future work"
+  ],
+  "corpus_sha256": "8d33db106d7c085ad54248ef95b895cec9bb1ab6481cdde14165eddd2925e21c",
+  "source_kind": "categorized_editorial_secondary_notes_not_fulltext",
+  "retrieval": "BM25 with paper and field filter; current corpus one candidate per field",
+  "validation": "schema + article ID + field category + evidence ID; not entailment",
+  "human_review_required": true,
+  "analysis_llm_generated": false
+}

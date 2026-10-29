@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "papers": 10,
+  "matrix_status": "editorial_secondary_source_review_not_new_model_run",
+  "generation_executed": false,
+  "previous_v2_result": "8/8 schema and ID checks; not a 10-paper run",
+  "needs_group_review": true
+}

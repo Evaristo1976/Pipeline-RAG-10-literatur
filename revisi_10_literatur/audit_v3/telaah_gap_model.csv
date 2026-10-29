@@ -1,0 +1,11 @@
+﻿paper_id,usulan_perbaikan_editorial,status
+R1,Uji RAG untuk ketepatan fakta dan sitasi briefing perikanan skala kecil Timor-Leste; tidak perlu membatasi usulan pada RAG-Sequence atau RAG-Token.,editorial_suggestion_not_new_model_output
+R2,Uji ketepatan dan kelengkapan sitasi pada briefing yang menggabungkan beberapa laporan.,editorial_suggestion_not_new_model_output
+R3,Kalibrasi evaluasi otomatis terhadap penilaian pakar perikanan dan pengguna briefing.,editorial_suggestion_not_new_model_output
+R4,Uji sintesis serta verifikasi sumber dalam briefing kebijakan; pertumbuhan ikan dan kebijakan kontrol budidaya bukan indikator mutu briefing.,editorial_suggestion_not_new_model_output
+R5,"Uji mutu jawaban, dukungan sitasi, dan relevansi briefing; efisiensi produksi budidaya bukan sasaran utama proyek.",editorial_suggestion_not_new_model_output
+R6,"Uji konsistensi sumber, wilayah, dan periode pada dokumen briefing, terpisah dari metrik identifikasi spesies.",editorial_suggestion_not_new_model_output
+D1,Uji pengubahan laporan analitik menjadi briefing dengan sumber serta periode yang jelas.,editorial_suggestion_not_new_model_output
+D2,"Uji apakah briefing mempertahankan konteks komunitas, tara bandu, serta perbedaan bukti empiris dan anekdot.",editorial_suggestion_not_new_model_output
+R7,"Jika active retrieval diimplementasikan, ukur kualitas serta latensi briefing panjang dibanding retrieval satu kali.",editorial_suggestion_not_new_model_output
+R8,Lakukan ablation konfigurasi retrieval pada dokumen lokal dan ukur mutu serta waktu respons.,editorial_suggestion_not_new_model_output

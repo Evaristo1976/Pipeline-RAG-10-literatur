@@ -1,0 +1,102 @@
+[
+  {
+    "Paper": "[R1] Lewis et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "DOI": "10.48550/arXiv.2005.11401",
+    "Problem": "Model parametrik sulit mengakses pengetahuan eksternal dan menunjukkan asal informasi.",
+    "Metode": "DPR dan BART dipadukan sebagai RAG-Sequence dan RAG-Token.",
+    "Dataset": "Wikipedia; NQ, TriviaQA, WebQuestions, CuratedTREC, MS MARCO, Jeopardy, FEVER.",
+    "Temuan": "Jawaban generation lebih faktual daripada baseline BART pada pengujian artikel.",
+    "Keterbatasan": "Penulis: sebagian pertanyaan MS MARCO tidak terjawab dengan Wikipedia saja.",
+    "Future work": "Usulan proyek: uji sumber lokal, ketepatan fakta, dan sitasi briefing."
+  },
+  {
+    "Paper": "[R2] Gao, Yen, Yu, dan Chen (2023). Enabling Large Language Models to Generate Text with Citations",
+    "DOI": "10.18653/v1/2023.emnlp-main.398",
+    "Problem": "Jawaban LLM sulit diverifikasi jika dukungan sitasinya tidak lengkap.",
+    "Metode": "ALCE menguji retrieval dan generation bersitasi beserta evaluasi otomatis.",
+    "Dataset": "ASQA, QAMPARI, dan ELI5; corpus retrieval terkait masing-masing tugas.",
+    "Temuan": "Sistem yang diuji masih memiliki kekurangan dukungan sitasi lengkap.",
+    "Keterbatasan": "Penulis: generation dan sintesis banyak sumber masih perlu perbaikan.",
+    "Future work": "Penulis: perbaiki retriever, model konteks panjang, dan sintesis lintas sumber."
+  },
+  {
+    "Paper": "[R3] Es, James, Espinosa Anke, dan Schockaert (2024). RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+    "DOI": "10.18653/v1/2024.eacl-demo.16",
+    "Problem": "Mutu RAG mencakup konteks dan kesetiaan jawaban, bukan kelancaran saja.",
+    "Metode": "RAGAs memakai penilaian berbasis LLM untuk beberapa dimensi kualitas.",
+    "Dataset": "WikiEval dengan perbandingan jawaban dan konteks serta penilaian manusia.",
+    "Temuan": "Metrik selaras dengan penilaian manusia terutama faithfulness dan relevansi jawaban.",
+    "Keterbatasan": "Penulis: kualitas evaluasi sangat bergantung pada LLM penilai.",
+    "Future work": "Usulan proyek: kalibrasi penilaian otomatis dengan dua penilai domain."
+  },
+  {
+    "Paper": "[R4] Danvirutai et al. (2025). An integrating RAG-LLM and deep Q-network framework for intelligent fish control systems",
+    "DOI": "10.1038/s41598-025-05892-3",
+    "Problem": "Kontrol budidaya memerlukan integrasi pengetahuan pakar dan respons sensor.",
+    "Metode": "Ensemble RAG-LLM, DQN, sensor IoT, serta majority voting.",
+    "Dataset": "900 pasangan tanya jawab pakar dan data sensor budidaya nila.",
+    "Temuan": "Artikel melaporkan perbaikan pertumbuhan dan stabilisasi kebijakan otomasi.",
+    "Keterbatasan": "Batas transfer (analisis): kontrol budidaya belum memvalidasi briefing kebijakan.",
+    "Future work": "Usulan proyek: uji sintesis laporan dan verifikasi manusia untuk briefing."
+  },
+  {
+    "Paper": "[R5] Kamalanathan dan Padmanabhan (2026). AI-driven aquaculture management system with AquaGPT for smart aquaculture",
+    "DOI": "10.1016/j.aquaeng.2026.102692",
+    "Problem": "Diagnosis penyakit dan konsultasi budidaya sering tersedia secara terpisah.",
+    "Metode": "RAG Mistral-7B dan ensemble MobileNetV2, DenseNet121, VGG16.",
+    "Dataset": "Citra tujuh kategori kesehatan ikan; sumber pengetahuan akuakultur terkurasi.",
+    "Temuan": "Stacking CNN mencapai 97,43 persen; angka ini bukan akurasi RAG.",
+    "Keterbatasan": "Penulis: evaluasi memakai dataset terkontrol; uji lapangan masih diperlukan.",
+    "Future work": "Penulis: field trials dan validasi pada dataset berbeda."
+  },
+  {
+    "Paper": "[R6] Song, Lv, dan Zhu (2026). FMRAG: retrieval-augmented multimodal large language models for fisheries intelligence",
+    "DOI": "10.3389/fmars.2026.1801835",
+    "Problem": "Halusinasi multimodal mengurangi reliabilitas analisis perikanan.",
+    "Metode": "Retrieval pasangan citra dan teks, fusi multimodal, serta fine-tuning domain.",
+    "Dataset": "Benchmark 5.000 sampel multimodal; evaluasi terkait FishVista dan Fish4Knowledge.",
+    "Temuan": "Artikel melaporkan perbaikan pengenalan spesies, biomassa, dan mitigasi halusinasi.",
+    "Keterbatasan": "Batas transfer (analisis): tugas visual belum membuktikan mutu briefing lokal.",
+    "Future work": "Usulan proyek: uji sintesis dokumen kebijakan dan konsistensi periode sumber."
+  },
+  {
+    "Paper": "[D1] Tilley, Dos Reis Lopes, dan Wilkinson (2020). PeskAAS: A near-real-time, open-source monitoring and analytics system for small-scale fisheries",
+    "DOI": "10.1371/journal.pone.0234760",
+    "Problem": "Data perikanan skala kecil tersebar dan sulit dirangkum secara konsisten.",
+    "Metode": "PeskAAS memakai perangkat open-source dan dashboard Shiny.",
+    "Dataset": "Data tangkapan, upaya, dan pelacakan kapal pada pilot Timor-Leste.",
+    "Temuan": "Sistem menyediakan analitik serta filter spasial dan temporal untuk data perikanan.",
+    "Keterbatasan": "Batas transfer (analisis): dashboard analitik bukan generator briefing bersitasi.",
+    "Future work": "Usulan proyek: hubungkan laporan dengan metadata wilayah dan periode."
+  },
+  {
+    "Paper": "[D2] Tilley et al. (2019). Evaluating the Fit of Co-management for Small-Scale Fisheries Governance in Timor-Leste",
+    "DOI": "10.3389/fmars.2019.00392",
+    "Problem": "Kesesuaian co-management dan tara bandu perlu dinilai dalam konteks lokal.",
+    "Metode": "Interactive governance framework dan dua studi kasus komunitas.",
+    "Dataset": "Biacou dan Adara; telaah konteks, wawancara, serta diskusi kelompok.",
+    "Temuan": "Kelembagaan lokal perlu terhubung dengan tata kelola pada tingkat lebih luas.",
+    "Keterbatasan": "Penulis: tidak tersedia baseline empiris untuk menguji klaim ekologis Biacou.",
+    "Future work": "Usulan proyek: pertahankan konteks komunitas dan bedakan bukti empiris dari anekdot."
+  },
+  {
+    "Paper": "[R7] Jiang et al. (2023). Active Retrieval Augmented Generation",
+    "DOI": "10.18653/v1/2023.emnlp-main.495",
+    "Problem": "Retrieval sekali di awal dapat tidak mencukupi kebutuhan teks panjang.",
+    "Metode": "FLARE memicu retrieval berdasarkan prediksi kalimat berikut dan token berkeyakinan rendah.",
+    "Dataset": "2WikiMultihopQA, StrategyQA, ASQA, dan WikiAsp.",
+    "Temuan": "FLARE unggul atau kompetitif pada empat tugas generation yang diuji.",
+    "Keterbatasan": "Penulis: tidak ada peningkatan berarti pada ELI5 dan Wizard of Wikipedia; overhead bertambah.",
+    "Future work": "Penulis: strategi retrieval aktif dan arsitektur integrasi informasi yang lebih efisien."
+  },
+  {
+    "Paper": "[R8] Wang et al. (2024). Searching for Best Practices in Retrieval-Augmented Generation",
+    "DOI": "10.18653/v1/2024.emnlp-main.981",
+    "Problem": "Banyak pilihan modul RAG menambah kompleksitas dan waktu respons.",
+    "Metode": "Eksperimen kombinasi retrieval, reranking, repacking, dan summarization.",
+    "Dataset": "Antara lain NQ, TriviaQA, HotpotQA; evaluasi tambahan lintas tugas.",
+    "Temuan": "Artikel mengusulkan konfigurasi yang menyeimbangkan kualitas dan efisiensi.",
+    "Keterbatasan": "Batas transfer (analisis): konfigurasi benchmark belum tentu optimal untuk dokumen lokal.",
+    "Future work": "Usulan proyek: ablation BM25 dan hybrid serta pengukuran latensi briefing."
+  }
+]

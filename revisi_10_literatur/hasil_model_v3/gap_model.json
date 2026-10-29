@@ -1,0 +1,52 @@
+[
+  {
+    "paper_id": "R1",
+    "gap_proyek": "Perlu dilakukan penelitian untuk menguji validitas model RAG-Sequence dan RAG-Token dalam konteks perikanan skala kecil di Timor-Leste.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R2",
+    "gap_proyek": "Butuh penelitian lebih lanjut untuk memperbaiki sistem yang dapat menyertakan dukungan sitasi lengkap dalam penggabungan teks berdasarkan model LLM.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R3",
+    "gap_proyek": "Perlu penilaian otomatis yang lebih akurat melalui kalibrasi dengan penilai domain lain untuk meningkatkan kualitas evaluasi.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R4",
+    "gap_proyek": "Butuh evaluasi briefing kebijakan untuk validasi perbaikan pertumbuhan dan stabilitas kebijakan otomatisasi.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R5",
+    "gap_proyek": "Butuh penelitian lebih lanjut tentang integrasi sistem manajemen budidaya ikan dengan teknologi AI untuk meningkatkan efisiensi dan kualitas produksi di skala kecil.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R6",
+    "gap_proyek": "Perlu dilakukan evaluasi briefing kebijakan perikanan skala kecil untuk memastikan relevansi dan efektivitas implementasi teknologi yang dikembangkan.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "D1",
+    "gap_proyek": "Perlu dikembangkan sistem yang dapat menyusun laporan perikanan skala kecil berdasarkan data yang tersedia dan memfasilitasi pengambilan keputusan yang lebih baik.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "D2",
+    "gap_proyek": "Perlu dilakukan evaluasi lebih lanjut terhadap kesesuaian co-management dan tara bandu dalam konteks lokal Timor-Leste.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R7",
+    "gap_proyek": "Perlu dikembangkan teknologi pengambilan keputusan yang dapat mengatasi batasan dalam menghasilkan teks panjang dengan akurasi dan efisiensi yang lebih baik.",
+    "status": "model_inference_requires_semantic_review"
+  },
+  {
+    "paper_id": "R8",
+    "gap_proyek": "Butuh penelitian lebih lanjut tentang efektivitas konfigurasi RAG dalam konteks lokal untuk memastikan kualitas dan efisiensi briefing kebijakan perikanan skala kecil di Timor-Leste.",
+    "status": "model_inference_requires_semantic_review"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "created_at_utc": "2026-10-29T11:13:38.622111+00:00",
+  "mode": "editorial_demo_no_model",
+  "llm_called": false,
+  "model_calls": 0,
+  "model_info": null,
+  "rows_total": 10,
+  "rows_schema_valid": 10,
+  "rows_failed": 0,
+  "column_order": [
+    "Paper",
+    "DOI",
+    "Problem",
+    "Metode",
+    "Dataset",
+    "Temuan",
+    "Keterbatasan",
+    "Future work"
+  ],
+  "corpus_sha256": "aa05814cde6a6c3af34f244974af5e950f972961ca03eb13e16627f90fe18ec1",
+  "source_kind": "categorized_editorial_secondary_notes_not_fulltext",
+  "retrieval": "BM25 with paper and field filter; current corpus one candidate per field",
+  "validation": "schema + article ID + field category + evidence ID; not entailment",
+  "human_review_required": true,
+  "analysis_llm_generated": false
+}
